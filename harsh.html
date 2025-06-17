@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Saini - Frontend Developer</title>
+    <link rel="stylesheet" href="harsh.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span>Harsh Saini</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+        <div class="hamburger">
+            <span></span>  
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Harsh Saini</span></h1>
+            <p class="typewriter">Frontend Developer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">View My Work</a>
+                <a href="#contact" class="secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="my-pic"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=600&fit=crop" alt="Developer workspace">
+            </div>
+            <div class="about-text">
+                <p>I am a passionate Frontend Developer with a keen eye for creating beautiful and functional web experiences. My journey in web development has equipped me with strong problem-solving skills and attention to detail.</p>
+                <p>I specialize in building responsive websites and web applications using modern technologies and best practices. My goal is to create intuitive and engaging user interfaces that provide exceptional user experiences.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                    <li>Chrome DevTools</li>
+                    <li>npm</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop" alt="Project 1">
+                <div class="project-content">
+                    <h3>E-commerce Website</h3>
+                    <p>A full-featured online store with shopping cart and payment integration.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop" alt="Project 2">
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A productivity app for managing daily tasks and projects.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop" alt="Project 3">
+                <div class="project-content">
+                    <h3>Weather Dashboard</h3>
+                    <p>Real-time weather information with location-based updates.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>API</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div> 
+                <button type="submit" style="color: aqua;" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p>harshsaini800600@gmail.com</p>
+                </div>  
+                <div class="info-item">
+                    <h3>Location</h3>
+                    <p>New Delhi, India</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Harsh Saini. All rights reserved.</p>
+    </footer>
+
+    <script src="harsh.js"></script>
+</body>
+</html>
